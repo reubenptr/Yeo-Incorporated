@@ -6,12 +6,10 @@
 //
 
 import SwiftUI
-
-@main
 struct IOS_ChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainContainerView()
         }
     }
 }
